@@ -125,6 +125,56 @@ body {
     gap: 25px;
 }
 
+/* why choose us section styles */
+.why-choose-us {
+    margin-top: 100px;
+}
+
+.choose-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.choose-texts {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.choose-title {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+    letter-spacing: 0%;
+}
+
+.choose-item-1 {
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.choose-item-2 {
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.choose-item-3 {
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    border-radius: 16px;
+    background: rgba(233, 68, 68, 0.05);
+}
+
+
+
 
 
 
