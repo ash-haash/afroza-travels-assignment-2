@@ -51,7 +51,7 @@ body {
 }
 
 .where-go,
-.when,
+
 .select {
     width: 176px;
     padding: 16px;
@@ -212,6 +212,35 @@ body {
     width: 432px;
     font-size: 20px;
 }
+
+.nl-img {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+/* sticker inside newsletter image */
+.sticker {
+    background: rgb(255, 84, 0);
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    line-height: 0%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 60px;
+    margin-right: 10px;
+    transform: rotate(-25deg);
+}
+
+.save {
+    font-size: xx-large;
+    font-weight: 700;
+    padding: 10px;
+}
+
 
 /* footer section styles */
 footer {
