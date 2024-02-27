@@ -173,6 +173,47 @@ body {
     background: rgba(233, 68, 68, 0.05);
 }
 
+/* testimonials section styles */
+.testimonials {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    margin-top: 60px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-top: 5px solid rgb(255, 84, 0);
+}
+
+.testimonials-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testimonials-title {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 50px;
+    letter-spacing: 0%;
+}
+
+.testimonial {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.testimonial-text {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.testimonial-author {
+    font-weight: bold;
+}
+
+
 /* newsletter section styles */
 .newsletter {
     margin-top: 100px;
@@ -282,16 +323,94 @@ footer {
 
 
 
-/* responsive styles */
-/* @media screen and (max-width: 600px) {
+/* responsive styles for small devices upto 600px screen size*/
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+    }
+
+    .bannerDiv {
+        padding: 1.5rem;
+    }
+
+    .banner-title {
+        font-size: 40px;
+    }
+
     .banner-form {
-        display: flex;
         flex-direction: column;
+        gap: 5px;
+        align-items: center;
     }
 
-    .tours {
-        display: flex;
-        flex-direction: column;
+    .where-go,
+    .select {
+        width: 100%;
     }
 
-} */
+    .common-btn {
+        width: 100%;
+    }
+
+    .tours,
+    .destination,
+    .why-choose-us,
+    .newsletter,
+    footer {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .tours,
+    .destination,
+    .why-choose-us,
+    .newsletter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .tours-image img,
+    .desti-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .nl-img img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .newsletter-form {
+        padding: 10px;
+        overflow: hidden;
+    }
+
+    .nl-title,
+    .newsletter-form>p,
+    .newsletter-form>input,
+    .nl-btn {
+        width: 100%;
+    }
+
+    .sticker {
+        font-size: small;
+        padding: 3px;
+        margin: 3px;
+        overflow: hidden;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    .icons {
+        padding: 10px 0;
+    }
+}
+
+.choose-content>p {
+    word-wrap: break-word;
+}
